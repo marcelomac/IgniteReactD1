@@ -1,0 +1,25 @@
+.status {
+  width: 150px;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  gap: 1rem;
+}
+
+.status strong {
+  font-size: 0.875rem;
+}
+
+.status span {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  padding: 0.5rem;
+  height: 1rem;
+  font-size: 0.75rem;
+  color: var(--white);
+
+}
